@@ -1,0 +1,15 @@
+@import "bootstrap";
+
+.status {
+  color: green;
+  padding: 5px;
+  border-bottom: 1px solid black;
+}
+
+.status .admin {
+  display: none;
+}
+
+.status.hover .admin {
+  display: inline;
+}
